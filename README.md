@@ -5,3 +5,26 @@ The Code snippets and notes are borrowed from
 https://github.com/tirthajyoti/Stats-Maths-with-Python/blob/master/Prob_Distributions_Discrete.ipynb
 
 In addition, the project covers some basic introduction to Think Bayes and Simulations
+
+# SHINY
+A demo on creating a Shinylive application for deployment on a static web
+steps
+- shiny create myapp
+Next, create the distribution with shinylive:
+- shinylive export myapp site
+The resulting site directory will contain the following files (among others that are not shown for brevity):
+
+site
+├── app.json          # The application's files serialized to JSON
+├── index.html        # A web page for the application
+├── edit
+│   └── index.html    # A web page for an editor view of the application
+├── shinylive-sw.js   # Shinylive service worker
+└── shinylive         # Shinylive content
+    └── pyodide       # Pyodide files
+
+
+This directory can now be deployed to a static web hosting service.
+
+You can preview the application by serving the files in the site directory:
+python3 -m http.server --directory site 8008
