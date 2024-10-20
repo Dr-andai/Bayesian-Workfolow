@@ -1,8 +1,13 @@
 # Probability Distribution
+
+This is a learning repository, focused on grasping maths and coding concepts in probability.
+
 This repository sets to offer an Introduction to Probability Distribution by looking into different types of distribution.
-We'll attempt to visualize Bernoulli, Binomial, Possion and Gaussian Distribution.
+We'll attempt to visualize Discrete distributions (Bernoulli, Binomial, Possion and Geomtric Distribution.)
 The Code snippets and notes are borrowed from
 https://github.com/tirthajyoti/Stats-Maths-with-Python/blob/master/Prob_Distributions_Discrete.ipynb
+
+We then build on conitnous probability, tackle Gausian distribution
 
 In addition, the project covers some basic introduction to Think Bayes and Simulations
 
