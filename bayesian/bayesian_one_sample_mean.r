@@ -37,4 +37,4 @@ ppost <- function(n){
                 yaxis=list(title='Probability Density Function', range=c(0, 1.35)))
 }
 
-ppost(50)
+ppost(5)
